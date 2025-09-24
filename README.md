@@ -43,15 +43,15 @@ Both projects demonstrate how to build flexible question-answering chatbots with
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+- git clone https://github.com/your-username/your-repo-name.git
+- cd your-repo-name
 
 
 ### 2. Create Virtual Environment
 
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
+- python -m venv venv
+- source venv/bin/activate   # Mac/Linux
+- venv\Scripts\activate      # Windows
 
 
 ### 3. Install Dependencies
@@ -61,22 +61,20 @@ pip install -r requirements.txt
 
 ### 4. Setup Environment Variables
 
-Create a .env file in the root directory:
-
-LANGCHAIN_API_KEY=your_langchain_api_key
-OPENAI_API_KEY=your_openai_api_key   # only needed for OpenAI chatbot
+- Create a .env file in the root directory:
+  - LANGCHAIN_API_KEY=your_langchain_api_key
+  - OPENAI_API_KEY=your_openai_api_key   # only needed for OpenAI chatbot
 
 
 ## ▶️ Running the Apps
 
 - OpenAI Chatbot
-
-  cd "1-OpenAI Q&A ChatBot"
-  streamlit run app.py
+  - cd "1-OpenAI Q&A ChatBot"
+  - streamlit run app.py
 
 - Ollama Chatbot
-  cd "2-Ollama ChatBot"
-  streamlit run app.py
+  - cd "2-Ollama ChatBot"
+  - streamlit run app.py
 
 
 ## 🖼️ App Previews
