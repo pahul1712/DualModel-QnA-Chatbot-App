@@ -10,6 +10,7 @@ Both projects demonstrate how to build flexible question-answering chatbots with
 
 ## 📂 Repository Structure
 
+\```
 ├── 1-OpenAI Q&A ChatBot
 │   └── app.py             # Streamlit app using OpenAI models
 │
@@ -19,6 +20,8 @@ Both projects demonstrate how to build flexible question-answering chatbots with
 ├── requirements.txt       # Required Python dependencies
 ├── .gitignore             # Ignored files (add .env, venv/, .DS_Store, etc.)
 └── README.md              # Project documentation
+\```
+
 
 
 
