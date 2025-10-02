@@ -4,6 +4,7 @@ This repository contains two **Streamlit-based interactive Q&A chatbots** powere
 - **OpenAI Chatbot** → Uses OpenAI models (`gpt-5`, `gpt-4.1`, etc.)  
 - **Ollama Chatbot** → Uses open-source models (`mistral`, `phi3`, `gemma3`, `llama2`, `deepseek-r1`)  
 
+
 Both projects demonstrate how to build flexible question-answering chatbots with customizable parameters like **temperature** and **max tokens**, while leveraging **LangSmith tracking** for observability.
 
 ---
